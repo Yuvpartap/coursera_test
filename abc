@@ -1,0 +1,176 @@
+<!doctype>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>queryalert</title>
+	<style>
+	header	a:link ,a:visited {text-decoration: none;
+                           background-color: white;
+                           border: 1px solid blue;
+                           color:blue;
+                           display: block;
+                           width: 100px;
+                           text-align: left;
+                           margin-bottom: 0.5px;
+
+		                   }
+		h1 {text-align: center;
+            text-shadow: 2px 2px 4px grey;
+            font-size: 40px;
+            font-style: bold,underline
+		}	
+		body {background-image: url( 'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHDAkIBwgKCgkFDQ8FBQUFBQ8ICQUKFBkWFhQRExMYHCggGBolGxMTITEhJSkrLi4uFx8zODMsNygtLisBCgoKBQUFDgUFDisZExkrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIAKABOgMBIgACEQEDEQH/xAAWAAEBAQAAAAAAAAAAAAAAAAACBwH/xAAVEAEBAAAAAAAAAAAAAAAAAAAAAf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwDYcCHAOFBhQDhwIcA4cCHAOHAhwDhwIcA4UGFAOHAhwDhwIcA4cCHAOHAhwChwIcA4cCHAOHAhwDhwIcAocCHAOHAhwDhwIcA4cCHAOEMIEPhwIcA4UGFAOHAhwDhwIcA4cCHAOHAhwDhQYUA4cCHAOHAhwDhwIcA4cCHAKHAhwDhwIcA4cCHAOHAhwChwIcA4cCHAOHAhwDhwIcA4QwgQ+HAhwDhQYUA4cCHAOHAhwDhwIcA4cCHAOFBhQDhwIcA4cCHAOHAhwDhwIcAocCHAOHAhwDhwIcA4cCHAKHAhwDhwIcA4cCHAOHAhwDhDCBD4cCHAOFBhQDhwIcA4cCHAOHAhwDhwIcA4UGFAOHAhwDhwIcA4cCHAOHAhwChwIcA4cCHAOHAhwDhwIcAocCHAOHAhwDhwIcA4cCHAOEMIEPhwIcA4UGFAOHAhwDhwIcA4cCHAOHAhwDhQYUA4cCHAOHAhwDhwIcA4cCHAKHAhwDhwIcA4cCHAOHAhwChwIcA4cCHAOHAhwDhwIcA4QwgQ+HAhwDhQYUA4cCHAOHAhwDhwIcA4cCHAOFBhQDhwIcA4cCHAOHAhwDhwIcAocCHAOHAhwDhwIcA4cCHAKHAhwDhwIcA4cCHAOHAhwDhDCBD4cCHAOFBhQDhwIcA4cCHAOHAhwDhwIcA4UGFAOHAhwDhwIcA4cCHAOHAhwChwIcA4cCHAOHAhwDhwIcAocCHAOHAhwDhwIcA4cCHAOEMIEPhwIcA4UGFAOHAhwDhwIcA4cCHAOHAhwDhQYUA4cCHAOHAhwDhwIcA4cCHAKHAhwDhwIcA4cCHAOHAhwChwIcA4cCHAOHAhwDhwIcA4QwgQ+HAhwDhQYUA4cCHAOHAhwDhwIcA4cCHAOFBhQDhwIcA4cCHAOHAhwDhwIcAocCHAOHAhwDhwIcA4cCHAKHAhwDhwIcA4cCHAOHAhwDhDCBD4cCHAOFBhQDhwIcA4cCHAOHAhwDhwIcA4UGFAOHAhwDhwIcA4cCHAOHAhwChwIcA4cCHAOHAhwDhwIcAocCHAOHAhwDhwIcA4cCHAOEMIH//Z' );
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+     border: 2px solid black;
+    background-size: 100% 100%;
+    }
+
+		body > div {text-align: right;
+                    font-style: italic;
+                    font-size: 20px;
+		}
+		p { font-size:30px; 
+            
+		 }
+		span { background-color: skybluen;
+			display: block;
+			font-style: italic;
+             font-size: 30px;
+		}
+		h2 {font-size: 35px; text-align: center;}
+		h3 {font-size: 32px}
+		footer {background-size: 25%; background-color: violet;
+	            text-align: center;}
+        	.a {display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 50%;
+                }
+	</style>
+</head>
+<header>
+	<h4>Sites You May Prefer</h4>
+<ul><li><a href="https://www.freelancer.com/dashboard/projects.php?w=f&ngsw-bypass=">freelancer</a></li>
+	<li><a href="https://www.linkedin.com/in/yaakovchaikin/">LinkedIn</a></li>
+	<li><a href="https://www.upwork.com/">Upwork</a></li></ul>
+</header>
+<body>
+	<h1>Get A Job Vs Start A buisness?</h1>
+	<div> By: Yuvpartap Singh Klair </div>
+<p>Have you been job hunting but, haven’t found an ideal job that showcases your talents,<br> education, and interests? Let me ask you a question:<br> Have you thought about starting your own business?</p>
+<p>Well in simple words, Lewis Henry defines business as, "Human activity directed towards <br> producing or acquiring wealth through buying and <br>selling of goods."  Thus, the term business means continuous production and <br>distribution of goods and services carried out to earn profits under uncertain<br> market conditions.
+ Whereas, a job is a paid position of regular employment.</p>
+ <p>I have to warn you though, making the leap from employee to entrepreneur means changing <br>not only your lifestyle but also your mindset. Before<br> spending time, money and energy starting a new business, you should ask yourself:<br> Do I have what it takes to own a business or, am I better suited to being an employee?</p>
+ <h2>1.) Let’s start why it’s awesome to own a business:
+</h2><p>Running your own business is super glamorized because people see all the good stuff about it and to be honest, there are a lot of good things about it:<br>
+When you’re running the show, you get to do anything you want! Do you want your “global headquarters” located on a beach in Costa Rica? Cool…..go!
+</p>
+<p>You get to write off a shit-ton of stuff on your taxes. You even get to save more money by being a business owner (a normal ROTH IRA allows you to sock away $5,500/year in savings tax-free, however, a business SEP IRA allows you to sock away $53,000/year. That’s 10x more).<br>
+</p>
+<p>You get to be your own boss, call all the shots, decided what you want (and don’t want) to do every day. It’s 100% up to you.
+Many first time entrepreneurs go through this short-lived euphoria of setting up their business and it’s exciting and fun!
+This is known as the “Playing Business” Phase. It’s where you get caught up in making business cards, making overly-complex business plans, thinking of incorporating an LLC, hashing out who’s gonna be your C.T.O. and C.F.O. 
+And by all means, you SHOULD enjoy aspects of this!<br>
+It’s fun!<br>
+It’s exciting!<br>
+It’s creative!<br>
+But it also doesn’t make you ONE GOD DAMN DOLLAR.<br>
+Soon this “Playing Business” euphoria starts to wear off, and reality starts to set in. In whatever business you go into, there’s going to be a lot more unexpected expenses and hassles than are generally reported.</p>
+<h2>2.) The BAD parts of owning a business:
+</h2><p>Let’s just start with this, my friend:<br>
+You tend to see the “highlight reel” of someone’s life, not the bad sides.<br>
+It’s great working on your passion or working for yourself…..but there WILL ALWAYS be sour patches in the journey. Lots of them. The most successful people I know have one thing in common: They simply work a ton. That’s it.<br>
+Yet that “boring” part of owning a business is rarely focused on.<br>
+I pulled these quotes from some of my notes from interviews where people ask about a work/life balance:<br>
+<span>Question asked to Elon Musk:<br>
+“How do you balance your work and personal life, and take care of yourself?”<br>
+Elon’s Response:<br>
+“I’m not currently performing a set of actions that will maximize my life expectancy.”<br>
+ 
+Question asked to Neil DeGrasse Tyson:<br>
+“How do you balance your work and personal life?”<br>
+Neil’s Response:<br>
+: he laughs hysterically:: “I don’t. If I achieve a balance, then I’m not working hard enough.”<br>
+ 
+Question asked to Mark Zuckerberg:<br>
+“How do you separate your work and personal life?”<br>
+Mark’s Response:<br>
+:: he laughs:: “I don’t.”<br>
+The answers they gave all elicited laughs from the audience, but behind those answers are people who essentially work nearly every waking hour they have. 
+</span>
+When a lot of people think about owning a business they imagine freedom, money & passion…….not 24 hours a day of work.</p>
+<h2>3.) The GOOD parts about having a job:
+</h2><p>
+This part should more accurately be called “Good parts about having a GOOD job.”<br>
+If you’re working a minimum wage fast-food job and you’re barely scraping by on that salary…..I’d imagine your job doesn’t seem that great.<br>
+However, if you’re a highly paid engineer and you’re making a great salary…..life probably isn’t THAT bad!<br>
+A steady job can provide you all sorts of sweet stuff:<br>
+You get a steady income.<br>
+You learn new skills.<br>
+You learn how large companies operate.<br>
+You show up from 9-5 and take home a check.<br>
+You can balance work life and personal life.<br>
+I think one of the greatest benefits of having a job is a stable income. Every single month you get a nice check!<br>
+Stable income is great in a lot of ways. You can measure out exactly how much you can spend, therefore you can plan & prepare very well. You are pretty much guaranteed this income.<br>
+You don’t have a feast-or-famine mentality like you sometimes get in the business.<br>
+It would seem that if you: Work with people you like + Working on projects you like + Get salary/perks you like = You probably like your job.<br>
+I actually don’t see the problem with having a job like this. In fact, I know tons of people at great companies who like their job at around an 85% level, and live a great life because of it!
+</p>
+<h2>4.) The BAD parts of having a job:
+</h2><p>
+While having a stable income and job can be great, there’s some obvious downside of having a job:<br>
+Your schedule always revolves around your job, not your own social activities.<br>
+You’re sometimes forced to do things you don’t want to do.<br>
+You’re sometimes forced to work with people you don’t like.<br>
+You’re often grouped into the same work every day.<br>
+You get a stable salary, but the potential for that number skyrocketing higher is very low.<br>
+Being forced to interact with people you don’t like + Working on a project you don’t like = You probably hate your job.<br>
+As with anything in life, there are positives and negatives. And despite all the good things a stable job can bring, it’ll also bring some bad things.<br></p>
+<h2>5.) Get A Job or Start A Business? It depends on your Risk Tolerance:
+</h2><p>A lot of young people working at a company will say this line: “I don’t want to be like those old people who’ve been working there for over 30 years!”<br>
+But that’s not looking at it correctly. Those “old people” are in their 50’s and 60’s and are trying to ride out the cushy gig <br>they’ve got going! They treat their job as a way to earn money and live a nice life. What’s wrong with that?<br>
+If you’re young, hungry and aggressive…..then perhaps that lifestyle isn’t for you YET. But stack on 20 years of life experience, get a spouse, pile on some kids, get roped into a mortgage and maybe the view will change.<br>
+It really just depends on which stage in your life you’re at. The guy above needs some serious cash flow coming in to support his family, and he probably spends most of his time in one place near his home because of the kids’ school, and he probably <br>prioritizes family above work, so maybe he will want to ride out a cushy job for all it’s worth. A stable 9-5 job is probably<br> ideal for this guy at this stage.<br>
+However, if you’re freshly out of college and wondering what to do in life, assuming you have low financial burdens, you can<br> pretty much DO ANYTHING YOU WANT for a few years with very low consequence.<br></p>
+<h3>“Bro….you haven’t answered my question. Should I get a job or start a business??”
+</h3><p>
+Here’s my ultra-short answer:<br>
+If you have a job + love it = Stay at a job.<br>
+If you have a job + hate it + curious about business = Milk your job long as you can and start something on the side.<br>
+If you don’t have a job + don’t have a business = Try both.<br>
+Try a bunch of things on the side. Remember, it’s easy to find out what you DON’T like.<br>
+I hope reading this post helped you clarify if you want to go down the path of starting a business or getting a job! 
+</p>
+<footer width="100%" height="20%">
+	<div style="text-align: center"> Source:Google<br>wikipedia </div>
+ <div> Copyright 2020
+	&copy;
+	
+		
+		<a href="https://www.instagram.com/y.u.v.i_/" target="_blank" title="follow us"> Follow on Instagram 
+			<img src= "data:image/jpeg;base64,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" height="20"width="20">
+		 </a> </div>
+</footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
